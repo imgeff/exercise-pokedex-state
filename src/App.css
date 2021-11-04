@@ -3,14 +3,32 @@ main {
   margin-right: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 60%;
+}
+
+button {
+  padding: 6px 15px;
+  background-color: rgb(5, 10, 41);
+  color: white;
+  font-weight: 600;
+  margin: 2px;
+  border: none;
+  border-radius: 2px;
 }
 
 .section-title {
   width: 100%;
   text-align: center;
 }
+
+.section-buttons {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .pokemon-section {
   display: flex;
   align-items: center;
@@ -20,4 +38,12 @@ main {
   border-radius: 10px;
   border: 2px solid black;
   margin: 50px;
+}
+
+.next-poke {
+  background-color: rgb(22, 177, 99);
+  color: black;
+  margin-top: 2px;
+  border: none;
+  border-radius: 2px;
 }
